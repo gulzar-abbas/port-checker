@@ -1,0 +1,17 @@
+{
+  "name": "portchecker.dev",
+  "version": "1.0.0",
+  "description": "A web tool to check open ports and IP connectivity.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "author": "Gulzar Abbas",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
