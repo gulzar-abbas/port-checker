@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Port Checker - PortChecker.dev</title>
+  <link rel="stylesheet" href="../src/styles/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔌 Port Checker</h1>
+    <p>Check if a specific port on an IP address is open or closed.</p>
+
+    <form id="port-checker-form">
+      <input type="text" id="ip" placeholder="Enter IP address or domain" required />
+      <input type="number" id="port" placeholder="Enter port number" required />
+      <button type="submit">Check Port</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="../src/scripts/main.js"></script>
+</body>
+</html>
