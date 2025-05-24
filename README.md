@@ -1,42 +1,39 @@
-# PortChecker.dev
+# 🌐 PortChecker.dev
 
-**PortChecker.dev** is a free online tool to check open ports and IP connectivity. It helps developers, sysadmins, and IT professionals quickly verify whether a port is open or closed on a given IP address.
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Live Website](https://img.shields.io/badge/Live-Demo-blue)](https://portchecker.dev)
 
-🔗 **Live Site**: [https://portchecker.dev](https://portchecker.dev)
-
----
-
-## 🚀 Features
-
-- Check open or closed ports for any IP address
-- Real-time port scanning
-- Supports IPv4 and IPv6
-- Mobile-friendly interface
-- Fast, secure, and lightweight
+**PortChecker.dev** is a simple, free, and open-source tool to check if a specific port on a given IP address is open or closed — no software install required.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Live Demo
 
-- HTML, CSS, JavaScript
-- Node.js / Express (if backend exists)
-- TailwindCSS (if used)
-- Vite/Webpack (optional build tool)
+🌍 [https://portchecker.dev](https://portchecker.dev)
+
+![Screenshot](.github/assets/screenshot.png)
 
 ---
 
-## 📦 Folder Structure
+## ✨ Features
+
+- ✅ Real-time port status checker
+- 🔒 Secure and privacy-friendly
+- ⚡ Super lightweight frontend
+- 📱 Mobile-responsive UI
+
+---
+
+## 📂 Project Structure
 
 ```bash
 portchecker.dev/
-├── public/             # Static assets
-├── src/                # Source code
-│   ├── components/
-│   └── styles/
-├── tests/              # Unit & functional tests
-├── .github/            # GitHub-specific files (issues, workflows)
-├── .gitignore
-├── LICENSE
+├── public/             # index.html (Main HTML file)
+├── src/
+│   ├── styles/         # style.css (Styling)
+│   └── scripts/        # main.js (JS logic)
+├── .github/            # Issue templates, screenshot
 ├── README.md
+├── LICENSE
 ├── CONTRIBUTING.md
-└── package.json        # If using npm
+└── .gitignore
